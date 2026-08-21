@@ -1,0 +1,4 @@
+# Global markdownlint-cli2 base config, passed via --config by nvim-lint.
+# Project .markdownlint.yaml files (searched upward from each file) override this.
+# Rule docs: https://github.com/DavidAnson/markdownlint/blob/main/doc/rules.md
+md013: false # line-length
